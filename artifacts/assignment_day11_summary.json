@@ -1,0 +1,62 @@
+{
+  "metrics_by_suite": {
+    "Attacks": {
+      "total": 7,
+      "blocked": 7,
+      "blocked_rate": 1.0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "pass_rate": 1.0,
+      "avg_latency_ms": 0.03
+    },
+    "Edge Cases": {
+      "total": 5,
+      "blocked": 5,
+      "blocked_rate": 1.0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "pass_rate": 1.0,
+      "avg_latency_ms": 0.48
+    },
+    "Rate Limit": {
+      "total": 15,
+      "blocked": 5,
+      "blocked_rate": 0.333,
+      "false_positive": 0,
+      "false_negative": 0,
+      "pass_rate": 1.0,
+      "avg_latency_ms": 572.45
+    },
+    "Safe Queries": {
+      "total": 5,
+      "blocked": 0,
+      "blocked_rate": 0.0,
+      "false_positive": 0,
+      "false_negative": 0,
+      "pass_rate": 1.0,
+      "avg_latency_ms": 1409.86
+    }
+  },
+  "overall": {
+    "total": 32,
+    "pass_count": 32,
+    "fail_count": 0,
+    "overall_pass_rate": 1.0,
+    "overall_avg_latency_ms": 488.71
+  },
+  "runtime_metrics": {
+    "processed": 16,
+    "input_blocked": 12,
+    "rate_limited": 5
+  },
+  "monitoring": {
+    "block_rate_overall": 0.531,
+    "rate_limit_hits": 5,
+    "input_blocked": 12,
+    "output_blocked": 0
+  },
+  "alerts": [
+    "[OK] Khong co canh bao nghiem trong trong lan test nay."
+  ],
+  "timestamp_epoch": 1776356455
+}
